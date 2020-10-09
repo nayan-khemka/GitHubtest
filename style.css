@@ -30,8 +30,8 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  
-  
+  min-width: fit-content;
+  min-height: fit-content;
 }
 #intro .content {
   text-align: center;
