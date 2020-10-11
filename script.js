@@ -1,6 +1,6 @@
 // Wait till the DOM is ready.
 $(function () {
-    var roles = ["Student", "VITian", "Learner","Activist"];
+    var roles = ["Student", "VITian", "Learner"];
     var count = 0;
     setInterval(() => {
       $("#intro .content h2 span").fadeOut("fast", function () {

@@ -1,25 +1,25 @@
 * {
     font-family: "Open Sans";
     font-weight: normal;
-    box-sizing: border-box;
+    box-sizing: circle;
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 10pt;
     line-height: 1;
   }
-  h1 {
-    text-align: center;
+  .slidesh {
+    text-align: left;
     padding: 10px;
     font-size: 2em;
     background-color: #333;
-    border-bottom: 2px solid #000;
+    border-bottom: 5pt solid #000;
     color: #fff;
     font-weight: 300;
     margin: 0 0 15px;
   }
   .slide-container {
-    text-align: center;
+    text-align:left;
     margin: 15px;
   }
   .slide-container .slides {
@@ -48,7 +48,7 @@
     width: 10px;
     height: 10px;
     border: 1px solid #ccc;
-    border-radius: 100%;
+    border-radius: 5px;
     padding: 5px;
     transition: all 0.5s linear;
   }
